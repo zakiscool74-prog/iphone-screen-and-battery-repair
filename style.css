@@ -1,0 +1,25 @@
+body { font-family: Arial, sans-serif; background: #f2f5f7; margin:0; padding:0; }
+header { background: #1a73e8; color: white; padding: 20px; text-align: center; }
+.wrapper { display: flex; }
+.sidebar { width: 220px; background: #fff; padding: 20px; box-shadow: 2px 0 5px rgba(0,0,0,0.1); }
+.sidebar ul { list-style: none; padding: 0; }
+.sidebar li { margin-bottom: 15px; }
+.sidebar a { text-decoration: none; color: #1a73e8; font-weight: bold; }
+.sidebar a:hover { text-decoration: underline; }
+
+.content { flex: 1; padding: 30px; }
+.step { background: white; padding: 20px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+.step img { width: 100%; border-radius: 10px; margin-top: 15px; }
+
+h2 { color: #1a73e8; }
+h3 { color: #155ab6; }
+
+.button { display: inline-block; background: #1a73e8; color: white; padding: 10px 25px; border-radius: 5px; text-decoration: none; font-weight: bold; margin-top: 20px; }
+.button:hover { background: #155ab6; }
+
+footer { background: #1a73e8; color: white; text-align: center; padding: 15px; margin-top: 50px; }
+
+@media screen and (max-width: 768px) {
+  .wrapper { flex-direction: column; }
+  .sidebar { width: 100%; box-shadow: none; }
+}

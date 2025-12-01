@@ -23,3 +23,5 @@ footer { background: #1a73e8; color: white; text-align: center; padding: 15px; m
   .wrapper { flex-direction: column; }
   .sidebar { width: 100%; box-shadow: none; }
 }
+.step img { width: 100%; }
+.step img { width: 40%; }

@@ -24,7 +24,9 @@ footer { background: #1a73e8; color: white; text-align: center; padding: 15px; m
   .sidebar { width: 100%; box-shadow: none; }
 }
 img {
-    width: 150px;     
-    height: auto;     
-    border-radius: 10px;  
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
 }
